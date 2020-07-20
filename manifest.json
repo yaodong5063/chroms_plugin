@@ -1,0 +1,47 @@
+{
+	"manifest_version": 2,
+	"name": "ROBOT挖矿 ",
+	"version": "2020.7.16",
+	"description": "ROBOT挖矿",
+	"icons": {
+	  "16": "img/exhibition.png",
+	  "48": "img/exhibition.png",
+	  "128": "img/exhibition.png"
+	},
+	"background":{
+		"scripts": ["js/ajax.js","js/background.js"]
+	},
+	"permissions":[
+		"<all_urls>",
+		"activeTab",
+		"contextMenus",
+		"storage",
+		"cookies",
+		"http://*/*",
+		"https://*/*",
+		"tabs",
+		"notifications"
+	],
+	"browser_action": {
+		"default_icon": "img/exhibition.png",
+		"default_title": "Salearms数据中心",
+		"default_popup": "index.html"
+	},
+	"content_scripts":[
+		{
+			"match_about_blank": true,
+			"matches": [
+				"http://*/*",
+				"https://*/*"
+			],
+			"js": ["js/ajax.js","js/client.js"],
+			"css": ["css/chroms.css"],
+			"exclude_matches": [
+				"*://*/*chrome.google.com/webstore*"
+			],
+			"all_frames": false,
+			"run_at": "document_start"
+		}
+		
+	]
+  }

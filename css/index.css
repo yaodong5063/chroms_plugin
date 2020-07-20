@@ -1,0 +1,91 @@
+.sale{
+    font-family:PingFangSC-Semibold,PingFang SC;
+}
+.sale_head{
+    width: 325px;
+    height: 100px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    background: #00C58C;
+}
+.sale_login{
+    text-align:center;
+
+}
+.sale_login h3{
+    font-size:22px;
+    font-weight:600;
+    color:rgba(42,42,42,1);
+    line-height:30px;
+    letter-spacing:1px;
+    text-align: center;
+    padding-top: 20px;
+}
+.sale_logins{
+    padding:50px 50px;
+}
+.sale_logins_com{
+    padding-bottom:10px;
+    position: relative;
+}
+.sale_logins_com input{
+    font-size: 18px;
+    border: 0;
+    border-bottom: 1px solid #E8E8E8;
+    line-height: 50px;
+    width: 100%;
+    height: 40px;
+}
+.sale_logins_com input:hover,.sale_logins_com input:focus{
+    border:0;
+    border-bottom:1px solid #00c58c;
+    box-shadow: 0 0 0 0px #00c58c;
+}
+.sale_logins_com span{
+    position: absolute;
+    height:40px;
+    line-height:40px;
+    right:0;
+    top:0;
+    font-size:18px;
+    font-weight:400;
+    color:rgba(0,197,140,1);
+    line-height:30px;
+    letter-spacing:1px;
+    cursor:pointer;
+}
+.sale_logins_but{
+    padding-top:20px;
+}
+.sale_logins_but button{
+    border: 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 28px;
+    padding: 10px 50px;
+    background: #00c58c;
+    border-radius: 28px;
+    cursor: pointer;
+}
+.sale_but{
+    padding:100px 0;
+    text-align:center;
+    display: none;
+}
+.sale_but button{
+    width:255px;
+    height:49px;
+    background:rgba(68,215,182,1);
+    border-radius:2px;
+    border:0;
+    font-size:16px;
+    cursor: pointer;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    margin-bottom:20px;
+
+}
+input,select,option,textarea,button{outline: none;}
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Salearms数据中心</title>
+	<meta charset="utf-8"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="/css/index.css">
+	<style>
+	body {
+		font-family: 'Microsoft Yahei';
+		min-height: 100px;
+		margin:0;
+		padding:0;
+		font-family:PingFangSC-Regular,PingFang SC;
+		color:#444;
+	}
+	body,h3,p,span{
+		margin:0;
+		padding:0;
+	}
+	</style>
+</head>
+<body>
+	<div class='sale'>
+		<div class='sale_head'>
+           <img src='https://www.salearms.com/static/login_logo.png'  width="120" height="20"/>
+		</div>
+		<div class='sale_login' id='login'>
+			<h3>用户登陆</h3>
+			<div class='sale_logins'>
+				<div class='sale_logins_com'>
+					<input placeholder="请输入手机号" id='tel'/>
+				</div>
+				<div class='sale_logins_com'>
+					<input placeholder="请输入短信验证码" id='code'/>
+					<span id='codeBut'>
+						获得验证码
+					</span>
+					<span id='codeButText' style='display:none'>
+						29
+					</span>
+				</div>
+				<div class='sale_logins_but'>
+                    <button id='but'>立即登录</button>
+				</div>
+			</div>
+			
+		</div>
+        <div class='sale_but' id='sale_but'>
+			<button id='againLogin'>
+				重新登陆
+			</button>
+			<button id='getData'>
+				点击获取当前页企业信息
+			</button>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/ajax.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>

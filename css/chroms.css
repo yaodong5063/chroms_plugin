@@ -1,0 +1,39 @@
+.chrome-plugin-demo-panel {
+	position: fixed;
+    top:50%;
+    left:50%;
+    width:250px;
+    height:100px;
+    transform: translate(-50%,-50%);
+	background: #fff;
+	padding: 10px;
+    border-radius: 3px;
+    z-index:9999;
+    color: #333;
+}
+.chrome-plugin-demo-panel a{
+	color: #333;
+    text-decoration: none;
+	font-size: 16px;
+}
+.chrome-plugin-demo-panel a:hover{
+    text-decoration: underline;
+    color: #ffee08;
+}
+.chrome-plugin-simple-tip {
+    position: fixed;
+    left: 50%;
+    padding: 16px 10px;
+    top: 70px;
+    color: #333;
+    z-index:999;
+    min-width: 150px;
+	max-width: 700px;
+    border-radius: 3px;
+    text-align: center;
+    transform: translate(-50%, 0);
+    font-size: 16px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+	transition: top .4s;
+}
