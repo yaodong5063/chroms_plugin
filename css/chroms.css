@@ -8,7 +8,7 @@
 	background: #fff;
 	padding: 10px;
     border-radius: 3px;
-    z-index:9999;
+    z-index:9999999;
     color: #333;
 }
 .chrome-plugin-demo-panel a{
@@ -26,7 +26,7 @@
     padding: 16px 10px;
     top: 70px;
     color: #333;
-    z-index:999;
+    z-index:9999999;
     min-width: 150px;
 	max-width: 700px;
     border-radius: 3px;

@@ -8,7 +8,7 @@ setTimeout(function(){
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse){
     const {type, login, data} = request;
     if(type === 3){
-        //登陆
+        //登录
         chrome.storage.sync.set({login},function(items){
             console.log(items,332);
         });
@@ -36,7 +36,7 @@ function dataLogin(){
                     console.log(res, 332);
                 })
             }else{
-                tip('请登陆后在获取数据');
+                tip('请登录后在获取数据');
             }
         }else{
             // tip('目前只支持启信宝和慧聪网哦～');

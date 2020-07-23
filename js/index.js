@@ -10,7 +10,7 @@ var againLogin = document.querySelector('#againLogin');
 var logines = document.querySelector('#login');
 var sale_but = document.querySelector('#sale_but');
 
-var login, t, url = 'http://plugin.salearms.ink/api/'
+var login, t, url = 'https://plugin.salearms.com/api/'
 
 
 chrome.storage.sync.get(['login'],function(items){
@@ -61,7 +61,7 @@ codeBut.addEventListener('click',function(){
 		chrome.notifications.create(null, {
 			type: 'basic',
 			iconUrl: 'img/exhibition.png',
-			title: '登陆错误提示',
+			title: '登录错误提示',
 			message: '电话号码有误',
 		});
 	}
@@ -74,7 +74,7 @@ but.addEventListener('click',function(){
 		return chrome.notifications.create(null, {
 			type: 'basic',
 			iconUrl: 'img/exhibition.png',
-			title: '登陆错误提示',
+			title: '登录错误提示',
 			message: '电话号码有误',
 		});
 		
@@ -83,7 +83,7 @@ but.addEventListener('click',function(){
 		return chrome.notifications.create(null, {
 			type: 'basic',
 			iconUrl: 'img/exhibition.png',
-			title: '登陆错误提示',
+			title: '登录错误提示',
 			message: '验证码输入有误',
 		});
 	}
@@ -109,7 +109,7 @@ but.addEventListener('click',function(){
 			chrome.notifications.create(null, {
 				type: 'basic',
 				iconUrl: 'img/exhibition.png',
-				title: '登陆错误提示',
+				title: '登录错误提示',
 				message: data.message,
 			});
 		}

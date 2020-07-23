@@ -1,10 +1,14 @@
+input::-webkit-input-placeholder {
+    color: #C0C0C0;
+}
+
 .sale{
     font-family:PingFangSC-Semibold,PingFang SC;
 }
 .sale_head{
     width: 325px;
-    height: 100px;
-    padding: 0 30px;
+    height: 64px;
+    padding: 0 28px;
     display: flex;
     align-items: center;
     background: #00C58C;
@@ -19,18 +23,17 @@
     color:rgba(42,42,42,1);
     line-height:30px;
     letter-spacing:1px;
-    text-align: center;
-    padding-top: 20px;
+    padding: 40px 0;
 }
 .sale_logins{
-    padding:50px 50px;
+    padding:0 50px 50px;
 }
 .sale_logins_com{
     padding-bottom:10px;
     position: relative;
 }
 .sale_logins_com input{
-    font-size: 18px;
+    font-size: 14px;
     border: 0;
     border-bottom: 1px solid #E8E8E8;
     line-height: 50px;
@@ -44,29 +47,27 @@
 }
 .sale_logins_com span{
     position: absolute;
-    height:40px;
-    line-height:40px;
     right:0;
     top:0;
-    font-size:18px;
+    cursor:pointer;
+    font-size:14px;
     font-weight:400;
     color:rgba(0,197,140,1);
-    line-height:30px;
+    line-height:43px;
     letter-spacing:1px;
-    cursor:pointer;
 }
 .sale_logins_but{
-    padding-top:20px;
+    padding-top:40px;
 }
 .sale_logins_but button{
     border: 0;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
     color: #ffffff;
-    line-height: 28px;
-    padding: 10px 50px;
-    background: #00c58c;
-    border-radius: 28px;
+    width:178px;
+    height:45px;
+    background:rgba(0,197,140,1);
+    border-radius:28px;
     cursor: pointer;
 }
 .sale_but{
@@ -76,11 +77,11 @@
 }
 .sale_but button{
     width:255px;
-    height:49px;
-    background:rgba(68,215,182,1);
-    border-radius:2px;
+    height:45px;
+    background: rgba(0,197,140,1);
+    border-radius: 28px;
     border:0;
-    font-size:16px;
+    font-size:14px;
     cursor: pointer;
     font-weight:400;
     color:rgba(255,255,255,1);

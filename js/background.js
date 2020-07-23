@@ -1,6 +1,6 @@
 function importMyBlog(body,accessToken, source) {
 	ajax.post({
-		url:'http://plugin.salearms.ink/api/browser/plug/dataAnalysis',
+		url:'https://plugin.salearms.com/api/browser/plug/dataAnalysis',
 		dataType:'json',
 		data:{
 			dom:body,
